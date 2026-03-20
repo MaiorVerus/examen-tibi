@@ -2,7 +2,17 @@
 
 import { Link } from "react-router-dom"
 
+
+import '../css/landing-pg-styles.css';
+
+let bodyStyle = document.body.style; 
+
 export default function LandingPage() {
+
+  bodyStyle.backgroundImage = "url('./images/main.jpg')";
+  // console.log(bodyStyle.backgroundImage);
+
+  
   return (
     <>
       <div className="main-wrapper">
@@ -30,19 +40,19 @@ export default function LandingPage() {
 
         <div className="cards">
           <Link to="/phe">
-            <div className="card phe">PHE</div>
+            <div className="card phe">PHE 🧠</div>
           </Link>
           <Link to="/wd">
-            <div className="card wd">WD</div>
+            <div className="card wd">WD 🌳</div>
           </Link>
           <Link to="/enm">
-            <div className="card enm">ENM</div>
+            <div className="card enm">ENM 🧱</div>
           </Link>
         </div>
 
         <footer>
           <p className="copyright-p">
-            examen tibi &copy; 2026
+            &copy; {} examen tibi. 
           </p>
         </footer>
       </div>
