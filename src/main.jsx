@@ -6,7 +6,7 @@ import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>   {/* ← wraps App, inside StrictMode */}
+    <BrowserRouter basename='/examen-tibi/'>   {/* ← wraps App, inside StrictMode */}
       <App />
     </BrowserRouter>
   </StrictMode>
