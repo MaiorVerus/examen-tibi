@@ -11,10 +11,8 @@ import './css/global-stylesheet.css'
 
 function App() {
 
-  
 
   return (
-
 
   <Routes>
     <Route path="/" element={<LandingPage />} />
