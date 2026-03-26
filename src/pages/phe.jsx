@@ -6,7 +6,7 @@ document.title === "PHE";
 export default function PHE() {
 
   console.log(document.title);
-  
+
 
   return (
     <>
@@ -16,15 +16,20 @@ export default function PHE() {
         <article>
         </article>
         <hr />
+
         <h2>Physical and Health Education</h2>
         <ol type="I">
-          <li>explain the concept of physical fitness</li>
-          <li>explain the components of physical fitness</li>
-          <li>explain the benefits of physical fitness</li>
-          <li>explain the factors affecting physical fitness</li>
-          <li>explain the principles of training</li>
-          <li>explain the methods of training</li>
+          <details>
+            <summary>questions</summary>
+            <li>explain the concept of physical fitness</li>
+            <li>explain the components of physical fitness</li>
+            <li>explain the benefits of physical fitness</li>
+            <li>explain the factors affecting physical fitness</li>
+            <li>explain the principles of training</li>
+            <li>explain the methods of training</li>
+          </details>
         </ol>
+
       </div>
     </>
   )

@@ -1,0 +1,55 @@
+
+footer {
+    background-color: rgba(117, 150, 250, 0.52);
+}
+.ft-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: auto 0;
+   
+      align-items: center;
+    
+}
+.ft-diamond {
+    width: 10px; height: 10px;
+    background: #c9a84c;
+    transform: rotate(45deg);
+    flex-shrink: 0;
+    opacity: 0.8;
+  }
+  .ft-diamond-sm {
+    width: 6px; height: 6px;
+    background: #c9a84c;
+    transform: rotate(45deg);
+    flex-shrink: 0;
+    opacity: 0.4;
+    margin: 0 6px;
+  }
+.ft-motto-wrapper {
+    display: flex;
+    /* flex-direction: column; */
+}
+  .ft-motto {
+    /* font-family: 'Playfair Display', serif; */
+    font-style: italic;
+    font-size: 1.05rem;
+    /* color: #e8c97a; */
+    letter-spacing: 0.04em;
+    margin: 0 1rem;
+    text-align: center;
+    text-shadow: 0 1px 12px rgba(201,168,76,0.25);
+  }
+  .ft-motto small {
+    display: block;
+    /* font-family: 'Crimson Text', serif; */
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    /* color: #b8a98a; */
+    /* opacity: 0.6; */
+    font-style: normal;
+    margin-top: 2px;
+  }
+
+  
