@@ -11,8 +11,6 @@ let bodyStyle = document.body.style;
 
 export default function LandingPage() {
 
-  // bodyStyle.backgroundImage = "url('./images/main2.png')";
-  // console.log(bodyStyle.backgroundImage);
 
 
   return (

@@ -1,8 +1,6 @@
 
 
 import "../css/comp-styles/footer.css"
-// import "../css/global-stylesheet.css"
-
 export default function Footer() {
     console.log("footer loaded also ✔");
     
@@ -21,7 +19,7 @@ export default function Footer() {
                     <div class="ft-diamond-sm"></div>
                 </div>
             </div>
-            {/* <hr /> */}
+           
             <p className="copyright-p">
                 &copy; {new Date().getFullYear()} examen tibi.
             </p>
