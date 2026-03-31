@@ -1,13 +1,12 @@
 
 import { Link } from "react-router-dom"
 
-document.title === "ENM"
+document.title = "ENM" 
 
 export default function PHE() {
   return (
     <>
-      {/* bodyStyle.backgroundImage = "url('/media/phe.png')";
-      console.log(bodyStyle.backgroundImage); */}
+
 
       <div className="main-wrapper">
         <p>back to <Link to="/"> home page</Link></p>
@@ -17,12 +16,14 @@ export default function PHE() {
         <hr />
         <h2>Cladding</h2>
         <ol type="I">
-          <li>4 physical properties of cladding materials</li>
-          <li>5 mechanical properties</li>
-          <li>explain methods of manufacturing</li>
-          <li>explain applications</li>
-          <li>explain advantages</li>
-          <li>factors to consider when cladding</li>
+          <details name="qa">
+            <li>4 physical properties of cladding materials</li>
+            <li>5 mechanical properties</li>
+            <li>explain methods of manufacturing</li>
+            <li>explain applications</li>
+            <li>explain advantages</li>
+            <li>factors to consider when cladding</li>
+          </details>
         </ol>
 
       </div>

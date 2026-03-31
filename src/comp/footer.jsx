@@ -1,9 +1,11 @@
 
 
 import "../css/comp-styles/footer.css"
-import "../css/global-stylesheet.css"
+// import "../css/global-stylesheet.css"
 
 export default function Footer() {
+    console.log("footer loaded also ✔");
+    
     return (<>
         <footer>
             <div className="ft-top">

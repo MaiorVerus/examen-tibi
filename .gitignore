@@ -25,3 +25,4 @@ dist-ssr
 
 # personal annotations
 public/project-notes.md
+src/assets/gh-config.md

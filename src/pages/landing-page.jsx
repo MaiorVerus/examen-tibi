@@ -3,13 +3,15 @@ import { Link } from "react-router-dom"
 
 import Footer from "../comp/footer";
 
-import '../css/landing-pg-styles.css';
+
+
+import css from '../css/landing-pg-styles.module.css';
 
 let bodyStyle = document.body.style;
 
 export default function LandingPage() {
 
-  bodyStyle.backgroundImage = "url('./images/main2.png')";
+  // bodyStyle.backgroundImage = "url('./images/main2.png')";
   // console.log(bodyStyle.backgroundImage);
 
 
@@ -39,15 +41,19 @@ export default function LandingPage() {
 
           <hr />
           <p>therefore, what do you wish to quiz yourself on? </p>
-          <div className="cards">
+          <div className={css["cards"]}>
             <Link to="/phe">
-              <div className="card phe" title="pedagogy">PHE 🧠 <span className="card-span">Pedagogy</span></div>
+              <div className={css["card"] + " " + css["phe"]} title="pedagogy">
+                PHE 🧠 <span className={css["card-span"]}>Pedagogy</span>
+              </div>
             </Link>
             <Link to="/wd">
-              <div className="card wd" title="wood">WD 🌳<span className="card-span">Technology</span> </div>
+              <div className={css["card"] + " " + css["wd"]} title="wood">WD 🌳<span className={css["card-span"]}>Technology</span> </div>
             </Link>
             <Link to="/enm">
-              <div className="card enm" title="engineering materials">ENM 🧱 <span className="card-span">Engineering</span></div>
+              <div className={css["card"] + " " + css["enm"]} title="engineering materials">
+                ENM 🧱 <span className={css["card-span"]}>Engineering</span>
+              </div>
             </Link>
           </div>
         </main>
