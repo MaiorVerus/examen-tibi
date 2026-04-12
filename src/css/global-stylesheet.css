@@ -1,24 +1,26 @@
-
-
-
 body {
-    background-image: url('./images/main2.png');
-    background-size: cover;
-    background-attachment: fixed;
-     background-position: center;
-     background-repeat: no-repeat;
-     /* background-color: rgba(142, 203, 246, 0.504); */
-     /* backdrop-filter: blur(11px); */
+  background-image: url('/examen-tibi/images/main2.png');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-color: rgba(142, 203, 246, 0.504); */
+  /* backdrop-filter: blur(11px); */
 }
 
 .main-wrapper {
-    backdrop-filter: blur(11px);
-  }
+  backdrop-filter: blur(11px);
+}
 
-  details {
-    margin-bottom: 1rem;
-  }
-  summary::marker {
-    font-size: 1.5rem;
-    color: #fb0606;
-  }
+details {
+  margin-bottom: 1rem;
+}
+
+summary::marker {
+  font-size: 1.5rem;
+  color: #fb0606;
+}
+
+span.check-hint {
+  cursor: pointer;
+}

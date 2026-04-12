@@ -20,19 +20,16 @@ export default function PHE() {
           </article>
           <hr />
 
-          <h2>Physical and Health Education</h2>
+          <h2>existentialism</h2>
           <ol type="I">
-            <details>
-              <summary>questions</summary>
-              <li>explain the concept of physical fitness</li>
-              <li>explain the components of physical fitness</li>
-              <li>explain the benefits of physical fitness</li>
-              <li>explain the factors affecting physical fitness</li>
-              <li>explain the principles of training</li>
-              <li>explain the methods of training</li>
-            </details>
+            <li>  principles of existentialism      </li>
+            <li>aims of existentialism in education</li>
+            <li>existentialism and curriculum</li>
+            <li>existentialism and teaching methods</li>
+            <li>existentialsm and teacher</li>
+            <li>criticisms of existentialism</li>
+            <li>what existentialism does not believe</li>
           </ol>
-          
         </main >
       </div>
 
